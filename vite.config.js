@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Replace 'leave-management' with your actual repo name
 export default defineConfig({
-  base: '/leave-management/',
+  base: '/leave-management/',  // This must match your repo name
   plugins: [react()],
 })
